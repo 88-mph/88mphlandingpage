@@ -31,13 +31,13 @@
 		background-position: 0% 50%;
 	}
 }
-a, a:visited, a:active {
+.link-underlined, .link-underlined:visited, .link-underlined:active {
   color: #12263F;
   text-decoration: none;
   border-bottom: 1px #12263F dotted;
 }
 
-a:hover {
+.link-underlined:hover {
   color: #12263F;
   text-decoration: none;
   border-bottom: 1px #12263F solid;
