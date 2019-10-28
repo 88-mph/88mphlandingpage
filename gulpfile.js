@@ -35,7 +35,8 @@ const paths = {
   },
   dist:   {
     base:   {
-      dir:    './dist'
+      dir:    './dist',
+      files:  './dist/**/*'
     },
     libs:   {
       dir:    './dist/assets/libs'
@@ -188,6 +189,10 @@ gulp.task('html', function() {
     .pipe(gulp.dest(paths.dist.base.dir));
 });
 
-gulp.task('build', gulp.series(gulp.parallel('clean:tmp', 'clean:packageLock', 'clean:dist', 'copy:all', 'copy:libs'), 'scss', 'html'));
+gulp.task('deploy', function() {
+  return gulp.src([paths.dist.base.files]).pipe(gulp.dest(paths.base.base.dir));
+});
+
+gulp.task('build', gulp.series(gulp.parallel('clean:tmp', 'clean:packageLock', 'clean:dist', 'copy:all', 'copy:libs'), 'scss', 'html', 'deploy'));
 
 gulp.task('default', gulp.series(gulp.parallel('fileinclude', 'scss'), gulp.parallel('browsersync', 'watch')));
