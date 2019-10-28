@@ -2633,7 +2633,7 @@ input[type="button"].btn-block {
   vertical-align: top; }
   .custom-control-label::before {
     position: absolute;
-    top: 0.20312rem;
+    top: 0.20313rem;
     left: -1.5rem;
     display: block;
     width: 1rem;
@@ -2644,7 +2644,7 @@ input[type="button"].btn-block {
     border: #B1C2D9 solid 0; }
   .custom-control-label::after {
     position: absolute;
-    top: 0.20312rem;
+    top: 0.20313rem;
     left: -1.5rem;
     display: block;
     width: 1rem;
@@ -2688,7 +2688,7 @@ input[type="button"].btn-block {
     pointer-events: all;
     border-radius: 0.5625rem; }
   .custom-switch .custom-control-label::after {
-    top: calc(0.20312rem + 0);
+    top: calc(0.20313rem + 0);
     left: calc(-3.5rem + 0);
     width: 1.125rem;
     height: 1.125rem;
@@ -3758,7 +3758,7 @@ input[type="button"].btn-block {
   display: flex;
   height: 1rem;
   overflow: hidden;
-  font-size: 0.70312rem;
+  font-size: 0.70313rem;
   background-color: #244166;
   border-radius: 200px; }
 
@@ -9470,8 +9470,8 @@ a.text-white:hover, a.text-white:focus {
   padding-right: 0.75rem;
   overflow: visible; }
   .navbar-vertical-sm.navbar-expand-xs .navbar-brand {
-    padding-top: 0.45312rem;
-    padding-bottom: 1.20312rem; }
+    padding-top: 0.45313rem;
+    padding-bottom: 1.20313rem; }
   .navbar-vertical-sm.navbar-expand-xs .navbar-brand-img {
     width: auto;
     max-height: 1.5rem; }
@@ -9506,8 +9506,8 @@ a.text-white:hover, a.text-white:focus {
     padding-right: 0.75rem;
     overflow: visible; }
     .navbar-vertical-sm.navbar-expand-sm .navbar-brand {
-      padding-top: 0.45312rem;
-      padding-bottom: 1.20312rem; }
+      padding-top: 0.45313rem;
+      padding-bottom: 1.20313rem; }
     .navbar-vertical-sm.navbar-expand-sm .navbar-brand-img {
       width: auto;
       max-height: 1.5rem; }
@@ -9542,8 +9542,8 @@ a.text-white:hover, a.text-white:focus {
     padding-right: 0.75rem;
     overflow: visible; }
     .navbar-vertical-sm.navbar-expand-md .navbar-brand {
-      padding-top: 0.45312rem;
-      padding-bottom: 1.20312rem; }
+      padding-top: 0.45313rem;
+      padding-bottom: 1.20313rem; }
     .navbar-vertical-sm.navbar-expand-md .navbar-brand-img {
       width: auto;
       max-height: 1.5rem; }
@@ -9578,8 +9578,8 @@ a.text-white:hover, a.text-white:focus {
     padding-right: 0.75rem;
     overflow: visible; }
     .navbar-vertical-sm.navbar-expand-lg .navbar-brand {
-      padding-top: 0.45312rem;
-      padding-bottom: 1.20312rem; }
+      padding-top: 0.45313rem;
+      padding-bottom: 1.20313rem; }
     .navbar-vertical-sm.navbar-expand-lg .navbar-brand-img {
       width: auto;
       max-height: 1.5rem; }
@@ -9614,8 +9614,8 @@ a.text-white:hover, a.text-white:focus {
     padding-right: 0.75rem;
     overflow: visible; }
     .navbar-vertical-sm.navbar-expand-xl .navbar-brand {
-      padding-top: 0.45312rem;
-      padding-bottom: 1.20312rem; }
+      padding-top: 0.45313rem;
+      padding-bottom: 1.20313rem; }
     .navbar-vertical-sm.navbar-expand-xl .navbar-brand-img {
       width: auto;
       max-height: 1.5rem; }
