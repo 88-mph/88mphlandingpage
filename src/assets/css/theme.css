@@ -10901,9 +10901,6 @@ a:focus, button:focus {
 .bg-bttf {
   background-color: #100e17; }
 
-.bg-pink {
-  background: linear-gradient(-160deg, #FF009D 43.73%, #3435F5 87.91%); }
-
 .animated-under-text {
   color: white;
   background: linear-gradient(-45deg, #FAAD14, #F7169C, #3435F5);
@@ -10925,3 +10922,13 @@ a:focus, button:focus {
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
+
+a, a:visited, a:active {
+  color: #12263F;
+  text-decoration: none;
+  border-bottom: 1px #12263F dotted; }
+
+a:hover {
+  color: #12263F;
+  text-decoration: none;
+  border-bottom: 1px #12263F solid; }
